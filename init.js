@@ -1,19 +1,30 @@
 window.addEventListener("DOMContentLoaded", init);
 
 function init() {
-  //get url
   var hash = window.location.hash.substr(1);
-
-  //load parts list json
-  var dataScript = document.createElement("script");
-  var src = "data/" + hash + ".js";
-  dataScript.setAttribute("src", src);
-  dataScript.setAttribute("type", "text/javascript");
-  document.getElementsByTagName('head')[0].appendChild(dataScript);
-
-  //load game.js
-  var gameScript = document.createElement("script");
-  gameScript.setAttribute("src", "game.js");
-  gameScript.setAttribute("type", "text/javascript");
-  document.getElementsByTagName('head')[0].appendChild(gameScript);
+  dataScriptURL = "data/" + hash + ".js";
+  loadScript(dataScriptURL, updatePage);
+  loadScript("game.js", null);
 }
+
+function loadScript(url, callback)
+{
+    // Adding the script tag to the head as suggested before
+    var head = document.head;
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = url;
+
+    // Then bind the event to the callback function.
+    // There are several events for cross browser compatibility.
+    script.onreadystatechange = callback;
+    script.onload = callback;
+
+    // Fire the loading
+    head.appendChild(script);
+}
+
+var updatePage = function() {
+  document.title = "title"
+  document.getElementById("page-title").innerHTML = title;
+};
