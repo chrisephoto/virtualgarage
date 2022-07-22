@@ -1,3 +1,6 @@
+//variables
+var hash = window.location.hash.substr(1);
+
 // listeners
 window.addEventListener("DOMContentLoaded", init);
 
