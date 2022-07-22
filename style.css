@@ -123,3 +123,9 @@ section#options summary {
   list-style: none;
   padding: 0;
 }
+
+@media (orientation: landscape) {
+  body {
+    background: skyblue;
+  }
+}
