@@ -55,3 +55,11 @@ section#options ul {
   margin: 0;
   padding: 0;
 }
+
+section#options :marker {
+  display:none;
+}
+
+section#options summary {
+  list-style: none
+}
