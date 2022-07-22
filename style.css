@@ -107,6 +107,10 @@ section#options details {
   padding: 0.5rem 2rem;
 }
 
+section#options details[open] summary {
+  padding: 0 0 0.5rem 0;
+}
+
 section#options summary {
   list-style: none;
   padding: 0;
