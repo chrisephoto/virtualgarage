@@ -4,7 +4,7 @@
 }
 
 :root {
-  --header-height: 2rem;
+  --header-height: 4rem;
 }
 
 html {
@@ -21,6 +21,7 @@ header {
   background: #263238;
   color: white;
   height: var(--header-height);
+  line-height: var(--header-height);
   position: fixed;
     left: 0;
     right: 0;
