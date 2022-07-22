@@ -75,7 +75,11 @@ section#options ::marker {
   display:none;
 }
 
+section#options details {
+  background: rgba(0,0,0,0.15);
+}
+
 section#options summary {
-  list-style: none
-    padding: 0.5rem 2rem;
+  list-style: none;
+  padding: 0.5rem 2rem;
 }
