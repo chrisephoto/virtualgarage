@@ -39,3 +39,14 @@ section#options > div {
   background: white;
   box-shadow: 32px 0 6px rgba(0,0,0,0.15);
 }
+
+section#options li {
+  margin: 0;
+  padding: 0;
+}
+
+section#options ul {
+  list-display-style: none;
+  margin: 0;
+  padding: 0;
+}
