@@ -47,12 +47,15 @@ section#options > div {
 }
 
 section#options h2 {
+  font-size: 1rem;
   margin: 0;
   padding: 0;
 }
 
 section#options span {
+  font-size: 0.8rem;
   margin: 0;
+  opacity: 0.8;
   padding: 0;
 }
 
