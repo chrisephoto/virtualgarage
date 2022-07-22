@@ -55,6 +55,10 @@ main {
   padding-top: var(--header-height);
 }
 
+main > div {
+  padding: 2rem;
+}
+
 section#display {
   border: 1px dashed black; /* remove */
   align-items: center;
