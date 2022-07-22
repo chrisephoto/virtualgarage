@@ -1,6 +1,6 @@
-window.title = "1999 Honda Civic (3DR)"
+title = "1999 Honda Civic (3DR)"
 
-window.parts = [
+parts = [
   { 
     "Headlights": {
       "options":
