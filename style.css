@@ -62,13 +62,10 @@ section#display {
   justify-content: center;
 }
 
-section#options {
-  padding: 2rem;
-}
-
 section#options > div {
   background: white;
   box-shadow: var(--shadow);
+  padding: 0.5rem 0;
 }
 
 section#options h2 {
@@ -123,11 +120,17 @@ section#options summary {
 }
 
 @media (orientation: landscape) {
+  
   body {
     background: skyblue;
   }
+  
+  section#options {
+    padding: 2rem;
+  }
+  
   section#options > div {
     border-radius: 5px;
-    padding: 0.5rem 0;
   }
+  
 }
