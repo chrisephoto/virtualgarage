@@ -1,0 +1,29 @@
+:root {
+  --header-height: 2rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: red;
+  height: var(--header-height);
+  position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+main {
+  box-sizing: border-box;
+  height: 100%;
+  padding-top: var(--header-height);
+}
+
+section#display {
+}
+
+section#options {
+}
