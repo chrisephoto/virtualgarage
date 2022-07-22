@@ -68,9 +68,7 @@ section#options {
 
 section#options > div {
   background: white;
-  border-radius: 5px;
   box-shadow: var(--shadow);
-  padding: 0.5rem 0;
 }
 
 section#options h2 {
@@ -127,5 +125,9 @@ section#options summary {
 @media (orientation: landscape) {
   body {
     background: skyblue;
+  }
+  section#options > div {
+    border-radius: 5px;
+    padding: 0.5rem 0;
   }
 }
