@@ -5,6 +5,13 @@ function init() {
   var hash = window.location.hash.substr(1);
 
   //load parts list json
+  var script = document.createElement("script");
+  var src = "data/" + hash + ".js";
+  console.log(src);
+  script.setAttribute("src", src);
+  script.setAttribute("type", "text/javascript");
+  document.getElementsByTagName('head')[0].appendChild(script);
+  console.log("success");
   
   //update title
   document.title = hash;
