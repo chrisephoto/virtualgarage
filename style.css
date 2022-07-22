@@ -76,6 +76,7 @@ section#options ::marker {
 }
 
 section#options details {
+  padding: 0.5rem 2rem;
 }
 
 section#options summary {
