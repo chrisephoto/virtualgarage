@@ -10,11 +10,9 @@ function init() {
   script.setAttribute("src", src);
   script.setAttribute("type", "text/javascript");
   document.getElementsByTagName('head')[0].appendChild(script);
-  console.log(title);
-  
-  //update title
-  document.title = hash;
-  document.getElementById("page-title").innerHTML = hash;
 
   //load game.js
+  script.setAttribute("src", "game.js");
+  script.setAttribute("type", "text/javascript");
+  document.getElementsByTagName('head')[0].appendChild(script);
 }
