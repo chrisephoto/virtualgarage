@@ -31,6 +31,7 @@ header {
 
 header h1 {
   font-size: 1rem;
+  font-weight: 400;
   margin: 0;
   padding: 0;
 }
@@ -62,14 +63,16 @@ section#options > div {
 
 section#options h2 {
   font-size: 1rem;
+  font-weight: 400;
   margin: 0;
   padding: 0;
 }
 
 section#options span {
   font-size: 0.8rem;
+  font-weight: 300;
   margin: 0;
-  opacity: 0.8;
+  opacity: 0.75;
   padding: 0;
 }
 
