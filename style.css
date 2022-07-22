@@ -50,6 +50,7 @@ header h1 {
 main {
   box-sizing: border-box;
   display: flex;
+  flex-direction: column;
   height: 100%;
   padding-top: var(--header-height);
 }
@@ -123,6 +124,10 @@ section#options summary {
   
   body {
     background: skyblue;
+  }
+  
+  main {
+    flex-direction: row;
   }
   
   section#options {
