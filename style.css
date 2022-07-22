@@ -35,6 +35,7 @@ main {
 }
 
 section#display {
+  background: skyblue; /* remove */
   align-items: center;
   display: flex;
   flex: 1 0 0;
