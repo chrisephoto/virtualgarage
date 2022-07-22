@@ -77,4 +77,5 @@ section#options ::marker {
 
 section#options summary {
   list-style: none
+    padding: 0.5rem 2rem;
 }
