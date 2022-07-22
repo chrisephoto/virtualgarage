@@ -16,7 +16,4 @@ function init() {
   gameScript.setAttribute("src", "game.js");
   gameScript.setAttribute("type", "text/javascript");
   document.getElementsByTagName('head')[0].appendChild(gameScript);
-  
-  document.title = window.title;
-  document.getElementById("page-title").innerHTML = window.title;
 }
