@@ -22,10 +22,17 @@ header {
   color: white;
   height: var(--header-height);
   line-height: var(--header-height);
+  padding: 0 2rem;
   position: fixed;
     left: 0;
     right: 0;
     top: 0;
+}
+
+header h1 {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
 }
 
 main {
