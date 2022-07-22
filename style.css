@@ -109,10 +109,6 @@ section#options details {
   padding: 0.5rem 2rem;
 }
 
-section#options details ul {
-  background: red;
-}
-
 section#options details[open] summary {
   padding: 0 0 0.5rem 0;
 }
