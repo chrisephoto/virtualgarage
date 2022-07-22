@@ -56,7 +56,7 @@ section#options ul {
   padding: 0;
 }
 
-section#options :marker {
+section#options ::marker {
   display:none;
 }
 
