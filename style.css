@@ -55,7 +55,7 @@ main {
 }
 
 section#display {
-  background: skyblue; /* remove */
+  border: 1px dashed black; /* remove */
   align-items: center;
   display: flex;
   flex: 1 0 0;
@@ -106,7 +106,12 @@ section#options ::marker {
 }
 
 section#options details {
+  border-bottom: 1px solid rgba(0,0,0,0.15);
   padding: 0.5rem 2rem;
+}
+
+section#options details:last-of-type {
+  border-bottom: none;
 }
 
 section#options details[open] summary {
