@@ -2,8 +2,8 @@ title = "1999 Honda Civic (3DR)"
 
 parts = [
   { 
-    title: "Headlights": {
-    "options":
+    "Headlights": {
+      "options":
       [
         {
           "description":"Stock",
@@ -15,8 +15,8 @@ parts = [
         }
       ]
     }, 
-    title: "Front Bumper": {
-    "options":
+    "Front Bumper": {
+      "options":
       [
         {
           "description":"Stock",
