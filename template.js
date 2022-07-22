@@ -1,7 +1,7 @@
 parts = [
   {
     title: "Headlights",
-    [
+    options: 
       {
         description: "Stock",
         url: "stock.jpg"
@@ -18,11 +18,10 @@ parts = [
         description: "Black",
         url: "black.jpg"
       }
-    ]
   },
   {
     title: "Front Bumper",
-    [
+    options:
       {
         description: "Stock",
         url: "stock.jpg"
@@ -39,11 +38,10 @@ parts = [
         description: "Spoon",
         url: "spoon.jpg"
       }
-    ]
   },
   {
     title: "Rear Bumper",
-    [
+    options:
       {
         description: "Stock",
         url: "stock.jpg"
@@ -55,7 +53,6 @@ parts = [
       {
         description: "Sergeant",
         url: "sergeant.jpg"
-      },
-    ]
+      }
   }
 ];
