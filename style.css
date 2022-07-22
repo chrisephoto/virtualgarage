@@ -18,11 +18,13 @@ header {
 
 main {
   box-sizing: border-box;
+  display: flex;
   height: 100%;
   padding-top: var(--header-height);
 }
 
 section#display {
+  flex: 1 0 0;
 }
 
 section#options {
