@@ -3,8 +3,7 @@ window.addEventListener("DOMContentLoaded", init);
 function init() {
   var hash = window.location.hash.substr(1);
   dataScriptURL = "data/" + hash + ".js";
-  loadScript(dataScriptURL, updatePage);
-  loadScript("game.js");
+  loadScript(dataScriptURL, loadScript("game.js", updatePage));
 }
 
 function loadScript(url, callback)
