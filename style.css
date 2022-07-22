@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 * {
   font-family: 'Poppins', sans-serif;
 }
@@ -70,7 +70,7 @@ section#options h2 {
 
 section#options span {
   font-size: 0.8rem;
-  font-weight: 300;
+  font-weight: 200;
   margin: 0;
   opacity: 0.75;
   padding: 0;
