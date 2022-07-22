@@ -14,7 +14,9 @@ parts = [
           "url":"stock.jpg"
         }
       ]
-    }, 
+    }
+  },
+  {
     "Front Bumper": {
       "options":
       [
