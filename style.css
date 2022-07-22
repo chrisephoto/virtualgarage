@@ -5,6 +5,7 @@
 
 :root {
   --header-height: 4rem;
+  --shadow: 0 3px 32px rgba(0,0,0,0.15);
 }
 
 html {
@@ -19,6 +20,7 @@ body {
 
 header {
   background: #263238;
+  box-shadow: var(--shadow);
   color: white;
   height: var(--header-height);
   line-height: var(--header-height);
@@ -58,7 +60,7 @@ section#options {
 section#options > div {
   background: white;
   border-radius: 5px;
-  box-shadow: 0 3px 32px rgba(0,0,0,0.15);
+  box-shadow: var(--shadow);
 }
 
 section#options h2 {
