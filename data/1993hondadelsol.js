@@ -1,60 +1,64 @@
 window.title = "1993 Honda del Sol"
 
 window.parts = [
-  {
+  { 
     title: "Headlights",
-    options: 
+    options:
+    [
       {
-        description: "Stock",
-        url: "stock.jpg"
+        "description":"Stock",
+        "url":"stock.jpg"
+      },
+      
+      {
+        "description":"Civic SiR (EK4)",
+        "url":"stock.jpg"
       },
       {
-        description: "Civic Type R",
-        url: "ctr.jpg"
-      },
-      {
-        description: "Yellow",
-        url: "yellow.jpg"
-      },
-      {
-        description: "Black",
-        url: "black.jpg"
+        "description":"Civic Type R (EK9)",
+        "url":"stock.jpg"
       }
+    ]
   },
-  {
+  { 
     title: "Front Bumper",
     options:
+    [
       {
-        description: "Stock",
-        url: "stock.jpg"
+        "description":"Stock",
+        "url":"stock.jpg"
       },
       {
-        description: "Civic Type R",
-        url: "ctr.jpg"
+        "description":"Civic Type R",
+        "url":"stock.jpg"
       },
       {
-        description: "Mugen",
-        url: "mugen.jpg"
+        "description":"First Molding",
+        "url":"stock.jpg"
       },
       {
-        description: "Spoon",
-        url: "spoon.jpg"
+        "description":"Mugen SS",
+        "url":"stock.jpg"
       }
+    ]
   },
-  {
+  { 
     title: "Rear Bumper",
     options:
+    [
       {
-        description: "Stock",
-        url: "stock.jpg"
+        "description":"Stock",
+        "url":"stock.jpg"
       },
       {
-        description: "Civic Type R",
-        url: "ctr.jpg"
+        "description":"Civic Type R",
+        "url":"stock.jpg"
       },
       {
-        description: "Sergeant",
-        url: "sergeant.jpg"
+        "description":"Sergeant",
+        "url":"stock.jpg"
       }
+      
+    ]
   }
 ];
