@@ -140,21 +140,16 @@ section#options summary {
 }
 
 #loading span {
+  animation: 1.5s ease-in-out 0s 1 loadingProgress;
   background-color: rgba(0,0,0,0.1);
   background-image: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%);
   background-position: 0 100%;
   background-repeat: no-repeat;
-  background-size: 0% 100%;
   border-radius: 1000px;
   opacity: 0.75;
   padding: 1rem;
   text-align: center;
-  transition: background-size 1.5s ease-in-out;
   width: 80vw;
-}
-
-#loading span:hover {
-  background-size: 100% 100%;;
 }
 
 @media (orientation: landscape) {
@@ -172,4 +167,13 @@ section#options summary {
     width: 25ch;
   }
   
+}
+
+@keyframes loadingProgress {
+  0% {
+    background-size: (0% 100%);
+  }
+  100% {
+    background-size: (100% 100%);
+  }
 }
