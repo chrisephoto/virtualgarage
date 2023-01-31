@@ -21,7 +21,7 @@ function init() {
 }
 
 function loading() {
-  setTimeout(function(){document.getElementById("loading").style.display=none;}, 1500);
+  setTimeout(function(){document.getElementById("loading").style.display="none";}, 1500);
 }
 
 function updateTitle() {
