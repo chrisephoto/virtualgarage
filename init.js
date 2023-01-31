@@ -15,30 +15,45 @@ function init() {
   gameScript.src = "game.js";
   head.appendChild(gameScript);
   
-  setTimeout(updateTitle, 500)
-  setTimeout(updateOptions, 1000);
-  setTimeout(loadingComplete, 3000);
+  updateTitle();
+  updateOptions();
+  
+  //setTimeout(updateTitle, 500)
+  //setTimeout(updateOptions, 1000);
+  //setTimeout(loadingComplete, 3000);
 }
 
 function updateTitle() {
   // update window and page title
-  document.title = window.title
-  document.getElementById("page-title").innerHTML = window.title;
-}
-
-function updateOptions() {
-  for (let i = 0; i < window.parts.length; i++) {
-    target = document.querySelector("#options div");
-
-    options = "";
-    for (let j = 0; j < window.parts[i].options.length; j++) {
-      options += "<li>" + window.parts[i].options[j].description + "</li>";
+  while (window.title === undefined) {
+    if (window.title  === undefined) {}
+    else {
+      document.title = window.title
+      document.getElementById("page-title").innerHTML = window.title;
     }
-
-    target.innerHTML += "<details><summary><h2>" + window.parts[i].title + "</h2><span>" + window.parts[i].options[0].description + "</span></summary><ul>" + options + "</ul></details>";
   }
 }
 
+function updateOptions() {
+  // populate options
+  while (window.parts === undefined) {
+    if (window.parts  === undefined) {}
+    else {
+      for (let i = 0; i < window.parts.length; i++) {
+        target = document.querySelector("#options div");
+
+        options = "";
+        for (let j = 0; j < window.parts[i].options.length; j++) {
+          options += "<li>" + window.parts[i].options[j].description + "</li>";
+        }
+
+        target.innerHTML += "<details><summary><h2>" + window.parts[i].title + "</h2><span>" + window.parts[i].options[0].description + "</span></summary><ul>" + options + "</ul></details>";
+      }
+    }
+  }
+}
+/*
 function loadingComplete() {
   document.getElementById("loading").style.display="none";
 }
+*/
