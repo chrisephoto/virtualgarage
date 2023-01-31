@@ -15,7 +15,7 @@ function init() {
   gameScript.src = "game.js";
   head.appendChild(gameScript);
   
-  updateTitle()
+  setTimeout(updateTitle, 50)
 }
 
 function updateTitle() {
