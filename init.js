@@ -17,16 +17,12 @@ function init() {
   
   updateTitle();
   updateOptions();
-  
-  //setTimeout(updateTitle, 500)
-  //setTimeout(updateOptions, 1000);
-  //setTimeout(loadingComplete, 3000);
 }
 
 function updateTitle() {
   // update window and page title
   if (window.title  === undefined) {
-   updateTitle();
+   setTimeout(updateTitle, 100)
   }
   else {
     document.title = window.title
@@ -37,7 +33,7 @@ function updateTitle() {
 function updateOptions() {
   // populate options
   if (window.parts  === undefined) {
-    updateOptions()
+    setTimeout(updateOptions, 100)
   }
   else {
     for (let i = 0; i < window.parts.length; i++) {
@@ -52,8 +48,3 @@ function updateOptions() {
     }
   }
 }
-/*
-function loadingComplete() {
-  document.getElementById("loading").style.display="none";
-}
-*/
