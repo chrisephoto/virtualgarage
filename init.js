@@ -15,8 +15,13 @@ function init() {
   gameScript.src = "game.js";
   head.appendChild(gameScript);
   
+  setTimeout(loading, 0);
   setTimeout(updateTitle, 500)
   setTimeout(updateOptions, 1000);
+}
+
+function loading() {
+  setTimeout(function(){document.getElementById("loading").display = none;}, 1500);
 }
 
 function updateTitle() {
