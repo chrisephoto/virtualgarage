@@ -126,10 +126,6 @@ section#options summary {
 
 @media (orientation: landscape) {
   
-  body {
-    background: skyblue;
-  }
-  
   main {
     flex-direction: row;
   }
