@@ -1,11 +1,9 @@
 window.addEventListener("DOMContentLoaded", init);
 
-/*
 function updatePage() {
-  document.title = title
-  document.getElementById("page-title").innerHTML = title;
+  document.title = window.title
+  document.getElementById("page-title").innerHTML = window.title;
 }
-*/
 
 function init() {
   var hash = window.location.hash.substr(1);
