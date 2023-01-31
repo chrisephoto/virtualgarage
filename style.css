@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-* {
-  font-family: 'Poppins', sans-serif;
-}
 
 :root {
   --header-height: 4rem;
@@ -9,6 +6,7 @@
 }
 
 html {
+  font-family: 'Poppins', sans-serif;
   min-height: 100%;
 }
 
@@ -142,6 +140,7 @@ section#options summary {
   
   section#options > div {
     border-radius: 5px;
+    width: 25ch;
   }
   
 }
