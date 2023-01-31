@@ -13,8 +13,10 @@ function init() {
   
   var head = document.head;
   var script = document.createElement('script');
-  script.type = 'text/javascript';
   script.src = dataScriptURL;
+  head.appendChild(script);
+  
+  script.src = "game.js";
   head.appendChild(script);
   
   //updatePage();
