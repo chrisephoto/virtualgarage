@@ -125,33 +125,6 @@ section#options summary {
   padding: 0;
 }
 
-#loading {
-  align-items: center;
-  background: white;
-  display: none; /* flex */
-  font-size: 2rem;
-  justify-content: center;
-  position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-  z-index: 50;
-}
-
-#loading span {
-  animation: 2s ease-in-out 1s 1 loadingProgress;
-  background-color: rgba(0,0,0,0.1);
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%);
-  background-position: 0 100%;
-  background-repeat: no-repeat;
-  border-radius: 1000px;
-  opacity: 0.75;
-  padding: 1rem;
-  text-align: center;
-  width: 80vw;
-}
-
 @media (orientation: landscape) {
   
   main {
@@ -167,16 +140,4 @@ section#options summary {
     width: 25ch;
   }
   
-}
-
-@keyframes loadingProgress {
-  0% {
-    background-size: 0% 100%;
-  }
-  60% {
-    background-size: 90% 100%;
-  }
-  100% {
-    background-size: 100% 100%;
-  }
 }
