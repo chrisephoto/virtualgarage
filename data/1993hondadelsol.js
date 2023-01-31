@@ -1,5 +1,5 @@
 title = "1993 Honda del Sol"
-/*
+
 parts = [
   {
     title: "Headlights",
@@ -58,4 +58,3 @@ parts = [
       }
   }
 ];
-*/
