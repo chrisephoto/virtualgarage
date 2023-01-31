@@ -12,12 +12,14 @@ function init() {
   dataScriptURL = "data/" + hash + ".js";
   
   var head = document.head;
-  var script = document.createElement('script');
-  script.src = dataScriptURL;
-  head.appendChild(script);
   
-  script.src = "game.js";
-  head.appendChild(script);
+  var dataScript = document.createElement('script');
+  dataScript.src = dataScriptURL;
+  head.appendChild(dataScript);
+  
+  var gameScript = document.createElement('script');
+  gameScript.src = "game.js";
+  head.appendChild(gameScript);
   
   //updatePage();
 }
