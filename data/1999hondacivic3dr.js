@@ -9,8 +9,13 @@ window.parts = [
         "description":"Stock",
         "url":"stock.jpg"
       },
+      
       {
-        "description":"Civic Type R",
+        "description":"Civic SiR (EK4)",
+        "url":"stock.jpg"
+      },
+      {
+        "description":"Civic Type R (EK9)",
         "url":"stock.jpg"
       }
     ]
@@ -26,7 +31,34 @@ window.parts = [
       {
         "description":"Civic Type R",
         "url":"stock.jpg"
+      },
+      {
+        "description":"First Molding",
+        "url":"stock.jpg"
+      },
+      {
+        "description":"Mugen SS",
+        "url":"stock.jpg"
       }
+    ]
+  },
+  { 
+    title: "Rear Bumper",
+    options:
+    [
+      {
+        "description":"Stock",
+        "url":"stock.jpg"
+      },
+      {
+        "description":"Civic Type R",
+        "url":"stock.jpg"
+      },
+      {
+        "description":"Sergeant",
+        "url":"stock.jpg"
+      }
+      
     ]
   }
 ];
