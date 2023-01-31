@@ -1,10 +1,5 @@
 window.addEventListener("DOMContentLoaded", init);
 
-function updatePage() {
-  document.title = window.title
-  document.getElementById("page-title").innerHTML = window.title;
-}
-
 function init() {
   var hash = window.location.hash.substr(1);
   dataScriptURL = "data/" + hash + ".js";
@@ -19,5 +14,6 @@ function init() {
   gameScript.src = "game.js";
   head.appendChild(gameScript);
   
-  //updatePage();
+  document.title = window.title
+  document.getElementById("page-title").innerHTML = window.title;
 }
