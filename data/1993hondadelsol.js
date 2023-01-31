@@ -1,6 +1,6 @@
-title = "1993 Honda del Sol"
+window.title = "1993 Honda del Sol"
 
-parts = [
+window.parts = [
   {
     title: "Headlights",
     options: 
