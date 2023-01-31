@@ -68,6 +68,25 @@ section#display {
   justify-content: center;
 }
 
+section#display canvas {
+}
+
+#canvas-01 {
+  border: 1px dashed red;
+}
+
+#canvas-02 {
+  border: 1px dashed green;
+}
+
+#canvas-03 {
+  border: 1px dashed blue;
+}
+
+#canvas-04 {
+  border: 1px dashed yellow;
+}
+
 section#options > div {
   background: white;
   box-shadow: var(--shadow);
