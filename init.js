@@ -15,13 +15,9 @@ function init() {
   gameScript.src = "game.js";
   head.appendChild(gameScript);
   
-  setTimeout(loading, 0);
   setTimeout(updateTitle, 500)
   setTimeout(updateOptions, 1000);
-}
-
-function loading() {
-  setTimeout(function(){document.getElementById("loading").style.display="none";}, 1500);
+  setTimeout(loadingComplete, 3000);
 }
 
 function updateTitle() {
@@ -41,4 +37,8 @@ function updateOptions() {
 
     target.innerHTML += "<details><summary><h2>" + window.parts[i].title + "</h2><span>" + window.parts[i].options[0].description + "</span></summary><ul>" + options + "</ul></details>";
   }
+}
+
+function loadingComplete() {
+  document.getElementById("loading").style.display="none";
 }
