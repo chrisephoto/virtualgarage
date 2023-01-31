@@ -15,6 +15,10 @@ function init() {
   gameScript.src = "game.js";
   head.appendChild(gameScript);
   
+  updateTitle()
+}
+
+function updateTitle() {
   // update window and page title
   document.title = window.title
   document.getElementById("page-title").innerHTML = window.title;
