@@ -1,6 +1,6 @@
 setTimeout(updateOptions, 1000);
 
-updateOptions() {
+function updateOptions() {
   for (let i = 0; i < window.parts.length; i++) {
     target = document.querySelector("#options div");
 
